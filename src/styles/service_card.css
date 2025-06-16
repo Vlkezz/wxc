@@ -1,0 +1,49 @@
+
+.custom-button {             
+    background-color: #cdff07 !important;  
+    border-color: #cdff07 !important;        
+    color: rgb(0, 0, 0) !important;                                                                                                  
+}
+
+.custom-button:hover {
+    background-color: #1d699c !important;  
+    border-color: #1d699c !important;        
+}
+
+.custom-card {
+    background-color: #69c5f8 !important;
+    border-color: #69c5f8 !important;
+    width: 250px;
+    height: 300px;
+    transition: transform 0.3s;
+}
+
+.custom-card:hover {
+  transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.basket-button
+{
+     background-color: #cdff07 !important;  
+     border-color: #cdff07 !important;    
+    
+}
+
+.basket-button:hover {
+    background-color: #1d699c !important;  
+    border-color: #1d699c !important;        
+}
+
+.basket-button img 
+{
+    width: 25px;
+    height: 25px;               
+    object-fit: contain;            
+    display: block; 
+}
+

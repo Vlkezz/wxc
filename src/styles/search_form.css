@@ -1,0 +1,57 @@
+form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;  
+    gap: 10px;   
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="number"] {       
+    padding:15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.10);
+
+}
+
+form input[type="text"]:focus ,form input[type="number"]:focus {
+    border-color: darkgrey;
+    box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+margin: 0;
+}
+
+form input::placeholder {
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form button[type="submit"] {
+    padding: 12px 25px;
+    background-color: #cdff07;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form button[type="submit"]:hover {
+    background-color:#1d699c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+form button[type="submit"]:active {
+    transform: translateY(0);
+}

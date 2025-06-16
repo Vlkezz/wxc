@@ -1,0 +1,43 @@
+nav {
+  align-self: end; 
+  transform: translateY(-10px);
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.navabar-button
+{
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;  
+  padding: 0;
+  margin: 0;
+}
+
+.navabar-button:hover
+{
+  text-decoration: underline;
+}
+

@@ -1,0 +1,31 @@
+header {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  background-color: #313642;
+  color: white;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  padding: 0 40px;
+  
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.admin-username
+{
+  color: red;
+}
+
+.user-username
+{
+  color: #cdff07;
+  
+}
+
+
