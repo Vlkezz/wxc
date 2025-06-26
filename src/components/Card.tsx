@@ -45,7 +45,7 @@ export default function ServiceCard({ service }:Props) {
           disabled={isInBasket(service.id)}
           variant={isInBasket(service.id) ? "success" : "outline-primary"}
       >
-          <img src="/images/basket.png" alt="Добавить в корзину" />
+          <img src="/wxc/images/basket.png" alt="Добавить в корзину" />
         </Button>
       </Card.Footer>
     </Card>
